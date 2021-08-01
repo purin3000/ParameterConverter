@@ -1,0 +1,750 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>小松正章</LastAuthor>
+  <Created>2021-08-16T14:37:24Z</Created>
+  <LastSaved>2021-08-16T14:37:07Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>30338</WindowHeight>
+  <WindowWidth>17498</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ActiveSheet>1</ActiveSheet>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s15">
+   <Alignment ss:Vertical="Bottom"/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s16">
+   <Alignment ss:Vertical="Bottom"/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s17">
+   <Alignment ss:Vertical="Bottom"/>
+   <Font ss:FontName="游ゴシック" x:CharSet="128" x:Family="Modern" ss:Size="11"
+    ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s19">
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s20">
+   <Alignment ss:Vertical="Bottom"/>
+   <Font ss:FontName="Roboto" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s21">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <Font ss:FontName="游ゴシック" x:CharSet="128" x:Family="Modern" ss:Size="11"
+    ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s22">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Font ss:FontName="游ゴシック" x:CharSet="128" x:Family="Modern" ss:Size="11"
+    ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s23">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Font ss:FontName="游ゴシック" x:CharSet="128" x:Family="Modern" ss:Size="11"
+    ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s25">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Horizontal">
+  <Table ss:ExpandedColumnCount="15" ss:ExpandedRowCount="19" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s15" ss:DefaultColumnWidth="81.375"
+   ss:DefaultRowHeight="15.75">
+   <Column ss:StyleID="s15" ss:AutoFitWidth="0" ss:Width="38.625"/>
+   <Column ss:StyleID="s15" ss:AutoFitWidth="0" ss:Width="115.5"/>
+   <Column ss:StyleID="s15" ss:AutoFitWidth="0" ss:Width="79.875"/>
+   <Column ss:Index="7" ss:StyleID="s15" ss:AutoFitWidth="0" ss:Width="35.625"/>
+   <Column ss:StyleID="s15" ss:AutoFitWidth="0" ss:Width="73.875"/>
+   <Column ss:StyleID="s15" ss:AutoFitWidth="0" ss:Width="103.875" ss:Span="1"/>
+   <Column ss:Index="11" ss:StyleID="s15" ss:AutoFitWidth="0" ss:Width="73.875"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s16"><Data ss:Type="String"># 出力設定</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s19"/>
+    <Cell ss:StyleID="s19"/>
+    <Cell ss:StyleID="s19"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"><Data ss:Type="String"># コマンド</Data></Cell>
+    <Cell ss:StyleID="s17"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">シュツリョクタイショウ</PhoneticText><Data
+      ss:Type="String"># 出力対象</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String"># 出力先</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:Index="8" ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">.class</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">SampleData00</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Assets/ParameterConverter/Sample/Data/Sample_xml.asset</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:Index="8" ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:Index="8" ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">ゴカンスウヨデキツウチカコウヨウ</PhoneticText><Data
+      ss:Type="String"># コンバート後に関数を呼ぶことが出来ます。リロード通知やテーブル加工用</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:Index="8" ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s17"><Data ss:Type="String">#</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">.callback</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">ParameterConverter.Sample.Editor.TestImporter</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">CallbackTest</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">argHoge</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">.callback</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">ConvertTest</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">argHoge</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s17"><Data ss:Type="String"># データ定義</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s19"/>
+    <Cell ss:StyleID="s19"/>
+    <Cell ss:StyleID="s19"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"><Data ss:Type="String"># 横書きモード。メンバを横に並べていきます。アイテムのリストなど、大量のデータに向いてる形式</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">.horizontal</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"><Data ss:Type="String"># string objName</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"><Data ss:Type="String"># Vector3 pos</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"><Data ss:Type="String"># class Data Array</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">objName</Data></Cell>
+    <Cell ss:StyleID="s16"/>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">pos.x</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">pos.y</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">pos.z</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">items[].id</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">items[].floatValue</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">items[].stringValue</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">items[].pos.x</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">items[].pos.y</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">items[].dataType</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">HorizontalTable</Data></Cell>
+    <Cell ss:StyleID="s16"/>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">101</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">201</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">301</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">ほげ１</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">44</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">DEFAULT</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:Index="6" ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">11</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">101</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">ほげ２</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">55</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">TYPE_A</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:Index="6" ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">12</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">102</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">ほげ３</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">66</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">DEFAULT</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s17"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <NoSummaryRowsBelowDetail/>
+   <NoSummaryColumnsRightDetail/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>2</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R1C1:R6C15,R8C1:R27C15,R7C6:R7C15,R7C1:R7C4</Range>
+   <Condition>
+    <Value1>LEFT(RC1) =&quot;#&quot;</Value1>
+    <Format Style='background:#93C47D;mso-pattern:#93C47D none'/>
+   </Condition>
+  </ConditionalFormatting>
+  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R1C1:R6C15,R8C1:R27C15,R7C6:R7C15,R7C1:R7C4</Range>
+   <Condition>
+    <Value1>LEFT(RC)=&quot;#&quot;</Value1>
+    <Format Style='background:#B7E1CD;mso-pattern:#B7E1CD none'/>
+   </Condition>
+  </ConditionalFormatting>
+ </Worksheet>
+ <Worksheet ss:Name="Vertical">
+  <Table ss:ExpandedColumnCount="13" ss:ExpandedRowCount="25" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s15" ss:DefaultColumnWidth="81.375"
+   ss:DefaultRowHeight="15.75">
+   <Column ss:StyleID="s15" ss:AutoFitWidth="0" ss:Width="37.5"/>
+   <Column ss:StyleID="s15" ss:AutoFitWidth="0" ss:Width="115.5"/>
+   <Column ss:Index="6" ss:StyleID="s15" ss:AutoFitWidth="0" ss:Width="53.625"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s16"><Data ss:Type="String"># 出力設定</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s19"/>
+    <Cell ss:StyleID="s19"/>
+    <Cell ss:StyleID="s19"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"><Data ss:Type="String"># コマンド</Data></Cell>
+    <Cell ss:StyleID="s17"><PhoneticText
+      xmlns="urn:schemas-microsoft-com:office:excel">シュツリョクタイショウ</PhoneticText><Data
+      ss:Type="String"># 出力対象</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String"># 出力先</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">.class</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">SampleData00</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Assets/ParameterConverter/Sample/Data/Sample_xml.asset</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s17"><Data ss:Type="String"># データ定義</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s19"/>
+    <Cell ss:StyleID="s19"/>
+    <Cell ss:StyleID="s19"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"><Data ss:Type="String"># 縦書きモード。縦書きモードではメンバを立てに並べて記述します</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">.vertical</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s16"><Data ss:Type="String"># メンバ名</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String"># 値</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">objName</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">hoge</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">pos.x</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">pos.y</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">items[].id</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">items[].floatValue</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="Number">3.14</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">256</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">512</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">items[].stringValue</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">apple</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">orange</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">lemon</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">items[].pos.x</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="Number">11</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">22</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">33</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">items[].pos.y</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">55</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">66</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">77</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="String">items[].dataType</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">TYPE_A</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">DEFAULT</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">TYPE_A</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s17"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s17"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s17"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s17"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <NoSummaryRowsBelowDetail/>
+   <NoSummaryColumnsRightDetail/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>2</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R1C1:R27C13</Range>
+   <Condition>
+    <Value1>LEFT(RC1) =&quot;#&quot;</Value1>
+    <Format Style='background:#93C47D;mso-pattern:#93C47D none'/>
+   </Condition>
+  </ConditionalFormatting>
+  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R1C1:R27C13</Range>
+   <Condition>
+    <Value1>LEFT(RC)=&quot;#&quot;</Value1>
+    <Format Style='background:#B7E1CD;mso-pattern:#B7E1CD none'/>
+   </Condition>
+  </ConditionalFormatting>
+ </Worksheet>
+ <Worksheet ss:Name="Rule">
+  <Table ss:ExpandedColumnCount="13" ss:ExpandedRowCount="2" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s15" ss:DefaultColumnWidth="81.375"
+   ss:DefaultRowHeight="15.75">
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s17"><Data ss:Type="String"># &quot;#&quot;を入れると以降のセルは全てコメントアウト</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">,テスト</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s19"/>
+    <Cell ss:StyleID="s19"/>
+    <Cell ss:StyleID="s19"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <NoSummaryRowsBelowDetail/>
+   <NoSummaryColumnsRightDetail/>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R1C1:R2C13</Range>
+   <Condition>
+    <Value1>LEFT(RC)=&quot;#&quot;</Value1>
+    <Format Style='background:#B7E1CD;mso-pattern:#B7E1CD none'/>
+   </Condition>
+  </ConditionalFormatting>
+  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R1C1:R2C13</Range>
+   <Condition>
+    <Value1>LEFT(RC1) =&quot;#&quot;</Value1>
+    <Format Style='background:#93C47D;mso-pattern:#93C47D none'/>
+   </Condition>
+  </ConditionalFormatting>
+ </Worksheet>
+</Workbook>

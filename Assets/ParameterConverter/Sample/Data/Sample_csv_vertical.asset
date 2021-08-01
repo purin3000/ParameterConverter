@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8608eabcd48bf7f42a0dec1af7d7e25e, type: 3}
+  m_Name: Sample_csv_vertical
+  m_EditorClassIdentifier: 
+  objName: hoge
+  pos: {x: 1, y: 2, z: 0}
+  items:
+  - id: 0
+    dataType: 1
+    floatValue: 3.14
+    stringValue: apple
+    pos: {x: 11, y: 55, z: 0}
+  - id: 1
+    dataType: 0
+    floatValue: 256
+    stringValue: orange
+    pos: {x: 22, y: 66, z: 0}
+  - id: 10
+    dataType: 1
+    floatValue: 512
+    stringValue: lemon
+    pos: {x: 33, y: 77, z: 0}
