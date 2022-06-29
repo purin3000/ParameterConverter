@@ -1,48 +1,40 @@
-using UnityEngine;
+using System;
 using ParameterConverter;
+using UnityEngine;
 
 [ParameterTarget("SampleData00")]
-public class SampleData : ScriptableObject
-{
-    public enum DataType
-    {
-        DEFAULT,
-        TYPE_A,
-    }
+public class SampleData : ScriptableObject {
+  public enum DataType {
+    DEFAULT,
+    TYPE_A
+  }
 
-    [SerializeField]
-    private string objName;
-    public string ObjName => objName;
+  [SerializeField] private string objName;
 
-    [SerializeField]
-    private Vector3 pos;
+  [SerializeField] private Vector3 pos;
+
+  [SerializeField] private Item[] items;
+
+  public string ObjName => objName;
+  public Vector3 Pos => pos;
+  public Item[] Items => items;
+
+  [Serializable]
+  public class Item {
+    [SerializeField] private int id;
+
+    [SerializeField] private DataType dataType;
+
+    [SerializeField] private float floatValue;
+
+    [SerializeField] private string stringValue;
+
+    [SerializeField] private Vector3 pos;
+
+    public int Id => id;
+    public DataType DataType => dataType;
+    public float FloatValue => floatValue;
+    public string StringValue => stringValue;
     public Vector3 Pos => pos;
-
-    [SerializeField]
-    private Item[] items;
-    public Item[] Items => items;
-
-    [System.Serializable]
-    public class Item
-    {
-        [SerializeField]
-        private int id;
-        public int Id => id;
-
-        [SerializeField]
-        private DataType dataType;
-        public DataType DataType => dataType;
-
-        [SerializeField]
-        private float floatValue;
-        public float FloatValue => floatValue;
-
-        [SerializeField]
-        private string stringValue;
-        public string StringValue => stringValue;
-
-        [SerializeField]
-        private Vector3 pos;
-        public Vector3 Pos => pos;
-    }
+  }
 }

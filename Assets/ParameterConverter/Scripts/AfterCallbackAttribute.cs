@@ -1,18 +1,13 @@
 using System;
 
-namespace ParameterConverter
-{
-    [AttributeUsage(AttributeTargets.Method)]
-    public class AfterCallbackAttribute
-        : Attribute
-    {
-        private string label;
-        public string Label => label;
-
-        public AfterCallbackAttribute(string label)
-        {
-            this.label = label;
-        }
+namespace ParameterConverter {
+  [AttributeUsage(AttributeTargets.Method)]
+  public class AfterCallbackAttribute
+    : Attribute {
+    public AfterCallbackAttribute(string label) {
+      Label = label;
     }
 
+    public string Label { get; }
+  }
 }
