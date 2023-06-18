@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8608eabcd48bf7f42a0dec1af7d7e25e, type: 3}
-  m_Name: Sample_xml
+  m_Name: Sample_xml_horizontal
   m_EditorClassIdentifier: 
-  objName: hoge
-  pos: {x: 1, y: 2, z: 301}
+  objName: HorizontalTable
+  pos: {x: 101, y: 201, z: 301}
   items:
   - id: 10
     dataType: 0
@@ -30,18 +30,3 @@ MonoBehaviour:
     floatValue: 102
     stringValue: "\u307B\u3052\uFF13"
     pos: {x: 66, y: 6, z: 0}
-  - id: 0
-    dataType: 1
-    floatValue: 3.14
-    stringValue: apple
-    pos: {x: 11, y: 55, z: 0}
-  - id: 1
-    dataType: 0
-    floatValue: 256
-    stringValue: orange
-    pos: {x: 22, y: 66, z: 0}
-  - id: 10
-    dataType: 1
-    floatValue: 512
-    stringValue: lemon
-    pos: {x: 33, y: 77, z: 0}
